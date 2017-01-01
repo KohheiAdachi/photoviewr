@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		088821CD1E1961230082017D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088821CC1E1961230082017D /* AppDelegate.swift */; };
+		088821CF1E1961230082017D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088821CE1E1961230082017D /* ViewController.swift */; };
+		088821D21E1961230082017D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 088821D01E1961230082017D /* Main.storyboard */; };
+		088821D41E1961230082017D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 088821D31E1961230082017D /* Assets.xcassets */; };
+		088821D71E1961230082017D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 088821D51E1961230082017D /* LaunchScreen.storyboard */; };
+		088821E21E1961230082017D /* raspiviewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088821E11E1961230082017D /* raspiviewTests.swift */; };
+		088821ED1E1961230082017D /* raspiviewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088821EC1E1961230082017D /* raspiviewUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		088821DE1E1961230082017D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 088821C11E1961230082017D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 088821C81E1961230082017D;
+			remoteInfo = raspiview;
+		};
+		088821E91E1961230082017D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 088821C11E1961230082017D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 088821C81E1961230082017D;
+			remoteInfo = raspiview;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		088821C91E1961230082017D /* raspiview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = raspiview.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		088821CC1E1961230082017D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		088821CE1E1961230082017D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		088821D11E1961230082017D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		088821D31E1961230082017D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		088821D61E1961230082017D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		088821D81E1961230082017D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		088821DD1E1961230082017D /* raspiviewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = raspiviewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		088821E11E1961230082017D /* raspiviewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = raspiviewTests.swift; sourceTree = "<group>"; };
+		088821E31E1961230082017D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		088821E81E1961230082017D /* raspiviewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = raspiviewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		088821EC1E1961230082017D /* raspiviewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = raspiviewUITests.swift; sourceTree = "<group>"; };
+		088821EE1E1961230082017D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		088821C61E1961230082017D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		088821DA1E1961230082017D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		088821E51E1961230082017D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		088821C01E1961230082017D = {
+			isa = PBXGroup;
+			children = (
+				088821CB1E1961230082017D /* raspiview */,
+				088821E01E1961230082017D /* raspiviewTests */,
+				088821EB1E1961230082017D /* raspiviewUITests */,
+				088821CA1E1961230082017D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		088821CA1E1961230082017D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				088821C91E1961230082017D /* raspiview.app */,
+				088821DD1E1961230082017D /* raspiviewTests.xctest */,
+				088821E81E1961230082017D /* raspiviewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		088821CB1E1961230082017D /* raspiview */ = {
+			isa = PBXGroup;
+			children = (
+				088821CC1E1961230082017D /* AppDelegate.swift */,
+				088821CE1E1961230082017D /* ViewController.swift */,
+				088821D01E1961230082017D /* Main.storyboard */,
+				088821D31E1961230082017D /* Assets.xcassets */,
+				088821D51E1961230082017D /* LaunchScreen.storyboard */,
+				088821D81E1961230082017D /* Info.plist */,
+			);
+			path = raspiview;
+			sourceTree = "<group>";
+		};
+		088821E01E1961230082017D /* raspiviewTests */ = {
+			isa = PBXGroup;
+			children = (
+				088821E11E1961230082017D /* raspiviewTests.swift */,
+				088821E31E1961230082017D /* Info.plist */,
+			);
+			path = raspiviewTests;
+			sourceTree = "<group>";
+		};
+		088821EB1E1961230082017D /* raspiviewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				088821EC1E1961230082017D /* raspiviewUITests.swift */,
+				088821EE1E1961230082017D /* Info.plist */,
+			);
+			path = raspiviewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		088821C81E1961230082017D /* raspiview */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 088821F11E1961230082017D /* Build configuration list for PBXNativeTarget "raspiview" */;
+			buildPhases = (
+				088821C51E1961230082017D /* Sources */,
+				088821C61E1961230082017D /* Frameworks */,
+				088821C71E1961230082017D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = raspiview;
+			productName = raspiview;
+			productReference = 088821C91E1961230082017D /* raspiview.app */;
+			productType = "com.apple.product-type.application";
+		};
+		088821DC1E1961230082017D /* raspiviewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 088821F41E1961230082017D /* Build configuration list for PBXNativeTarget "raspiviewTests" */;
+			buildPhases = (
+				088821D91E1961230082017D /* Sources */,
+				088821DA1E1961230082017D /* Frameworks */,
+				088821DB1E1961230082017D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				088821DF1E1961230082017D /* PBXTargetDependency */,
+			);
+			name = raspiviewTests;
+			productName = raspiviewTests;
+			productReference = 088821DD1E1961230082017D /* raspiviewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		088821E71E1961230082017D /* raspiviewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 088821F71E1961230082017D /* Build configuration list for PBXNativeTarget "raspiviewUITests" */;
+			buildPhases = (
+				088821E41E1961230082017D /* Sources */,
+				088821E51E1961230082017D /* Frameworks */,
+				088821E61E1961230082017D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				088821EA1E1961230082017D /* PBXTargetDependency */,
+			);
+			name = raspiviewUITests;
+			productName = raspiviewUITests;
+			productReference = 088821E81E1961230082017D /* raspiviewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		088821C11E1961230082017D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Kohei Adachi";
+				TargetAttributes = {
+					088821C81E1961230082017D = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = CK6QEZR7Y5;
+						ProvisioningStyle = Automatic;
+					};
+					088821DC1E1961230082017D = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = CK6QEZR7Y5;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 088821C81E1961230082017D;
+					};
+					088821E71E1961230082017D = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = CK6QEZR7Y5;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 088821C81E1961230082017D;
+					};
+				};
+			};
+			buildConfigurationList = 088821C41E1961230082017D /* Build configuration list for PBXProject "raspiview" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 088821C01E1961230082017D;
+			productRefGroup = 088821CA1E1961230082017D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				088821C81E1961230082017D /* raspiview */,
+				088821DC1E1961230082017D /* raspiviewTests */,
+				088821E71E1961230082017D /* raspiviewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		088821C71E1961230082017D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				088821D71E1961230082017D /* LaunchScreen.storyboard in Resources */,
+				088821D41E1961230082017D /* Assets.xcassets in Resources */,
+				088821D21E1961230082017D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		088821DB1E1961230082017D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		088821E61E1961230082017D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		088821C51E1961230082017D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				088821CF1E1961230082017D /* ViewController.swift in Sources */,
+				088821CD1E1961230082017D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		088821D91E1961230082017D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				088821E21E1961230082017D /* raspiviewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		088821E41E1961230082017D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				088821ED1E1961230082017D /* raspiviewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		088821DF1E1961230082017D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 088821C81E1961230082017D /* raspiview */;
+			targetProxy = 088821DE1E1961230082017D /* PBXContainerItemProxy */;
+		};
+		088821EA1E1961230082017D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 088821C81E1961230082017D /* raspiview */;
+			targetProxy = 088821E91E1961230082017D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		088821D01E1961230082017D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				088821D11E1961230082017D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		088821D51E1961230082017D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				088821D61E1961230082017D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		088821EF1E1961230082017D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		088821F01E1961230082017D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		088821F21E1961230082017D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CK6QEZR7Y5;
+				INFOPLIST_FILE = raspiview/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = a.raspiview;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		088821F31E1961230082017D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CK6QEZR7Y5;
+				INFOPLIST_FILE = raspiview/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = a.raspiview;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		088821F51E1961230082017D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = CK6QEZR7Y5;
+				INFOPLIST_FILE = raspiviewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = a.raspiviewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/raspiview.app/raspiview";
+			};
+			name = Debug;
+		};
+		088821F61E1961230082017D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = CK6QEZR7Y5;
+				INFOPLIST_FILE = raspiviewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = a.raspiviewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/raspiview.app/raspiview";
+			};
+			name = Release;
+		};
+		088821F81E1961230082017D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = CK6QEZR7Y5;
+				INFOPLIST_FILE = raspiviewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = a.raspiviewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = raspiview;
+			};
+			name = Debug;
+		};
+		088821F91E1961230082017D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = CK6QEZR7Y5;
+				INFOPLIST_FILE = raspiviewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = a.raspiviewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = raspiview;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		088821C41E1961230082017D /* Build configuration list for PBXProject "raspiview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				088821EF1E1961230082017D /* Debug */,
+				088821F01E1961230082017D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		088821F11E1961230082017D /* Build configuration list for PBXNativeTarget "raspiview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				088821F21E1961230082017D /* Debug */,
+				088821F31E1961230082017D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		088821F41E1961230082017D /* Build configuration list for PBXNativeTarget "raspiviewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				088821F51E1961230082017D /* Debug */,
+				088821F61E1961230082017D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		088821F71E1961230082017D /* Build configuration list for PBXNativeTarget "raspiviewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				088821F81E1961230082017D /* Debug */,
+				088821F91E1961230082017D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 088821C11E1961230082017D /* Project object */;
+}
